@@ -1,3 +1,69 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: auto;
+            }
+            
+            .slideshow-container {
+                max-width: 100%;
+                position: relative;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .slide {
+                display: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="slideshow-container">
+
+            <!-- Slides -->
+            <div class="slide fade">
+                <div class="numberPage">1 / 5</div>
+                <img src="img/universe1.jpg">
+                <div class="text">Universe </div>
+            </div>
+        
+            <div class="slide fade">
+                <div class="numberPage">2 / 5</div>
+                <img src="img/universe2.jpg">
+                <div class="text">Universe Two</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="numberPage">3 / 5</div>
+                <img src="img/universe3.jpg">
+                <div class="text">Universe Three</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="numberPage">4 / 5</div>
+                <img src="img/universe4.jpg">
+                <div class="text">Universe Four</div>
+            </div>
+
+            <div class="slide fade">
+                <div class="numberPage">5 / 5</div>
+                <img src="img/universe5.jpg">
+                <div class="text">Universe Five</div>
+            </div>
+
+            <!-- Buttons -->
+            <a class="prev" >&#10094;</a>
+            <a class="next" >&#10095;</a>
+
+            <!-- Dots & Circles -->
+            <div style="text-align: center">
+
+            </div>
+        </div>
+    </body>
 </html>
